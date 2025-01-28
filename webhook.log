@@ -1,0 +1,13 @@
+2025-01-28 12:22:00,258 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-01-28 12:22:00,258 - [33mPress CTRL+C to quit[0m
+2025-01-28 12:22:07,220 - 127.0.0.1 - - [28/Jan/2025 12:22:07] "[31m[1mGET /webhook HTTP/1.1[0m" 405 -
+2025-01-28 12:22:08,084 - 127.0.0.1 - - [28/Jan/2025 12:22:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-28 12:22:39,902 - Headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '5ffd2d96-0444-4bd8-97af-14286fa1eaf4', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '20'}
+2025-01-28 12:22:39,904 - Body: {'message': 'hello'}
+2025-01-28 12:22:39,905 - 127.0.0.1 - - [28/Jan/2025 12:22:39] "POST /webhook HTTP/1.1" 200 -
+2025-01-28 12:23:11,131 - Headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '4428f964-5cd3-4d47-8880-7b45d214f217', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '36'}
+2025-01-28 12:23:11,131 - Body: {'message': 'hello', 'name': 'nitin'}
+2025-01-28 12:23:11,131 - 127.0.0.1 - - [28/Jan/2025 12:23:11] "POST /webhook HTTP/1.1" 200 -
