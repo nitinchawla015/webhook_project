@@ -11,3 +11,11 @@
 2025-01-28 12:23:11,131 - Headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '4428f964-5cd3-4d47-8880-7b45d214f217', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '36'}
 2025-01-28 12:23:11,131 - Body: {'message': 'hello', 'name': 'nitin'}
 2025-01-28 12:23:11,131 - 127.0.0.1 - - [28/Jan/2025 12:23:11] "POST /webhook HTTP/1.1" 200 -
+2025-01-28 13:20:28,915 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.31:5000
+2025-01-28 13:20:28,915 - [33mPress CTRL+C to quit[0m
+2025-01-28 13:21:33,456 - Headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '5f8d8879-ea83-4707-bf4c-1d9f2693f320', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '36'}
+2025-01-28 13:21:33,456 - Body: {'message': 'hello', 'name': 'nitin'}
+2025-01-28 13:21:33,457 - 127.0.0.1 - - [28/Jan/2025 13:21:33] "POST /webhook HTTP/1.1" 200 -
